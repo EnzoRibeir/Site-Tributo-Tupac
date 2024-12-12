@@ -1,0 +1,60 @@
+html,body,.bloco-imagem-tupac {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+.container1 {
+    background: url(../img/bg-fixed.jpg) top center / cover no-repeat fixed;
+    text-align: center;
+}
+
+.img-logo {
+    position: absolute;
+    top: 7%; 
+    left: 3%;    
+}
+
+.bloco-imagem-tupac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.citacao {
+    padding-top: 260px;
+    position: absolute;
+    font-size: 30px;
+    pointer-events: none; 
+    transform: scaleX(1.3);   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container2 {
+    background-image: url(../img/bg-concrete.jpg);
+    text-align: center;
+    padding: 60px;
+}
+
+.titulo-resumo {
+    font-size: 15px;
+    margin: 0 auto 20px;
+    color: rgb(231, 133, 5);
+    text-transform: uppercase;
+}
+
+.resumo {
+    font-size: 13px;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.link-biografia {
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}

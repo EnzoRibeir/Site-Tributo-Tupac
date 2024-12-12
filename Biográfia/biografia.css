@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+.container1-bio {
+    background-image: url('../img/tupac-costa.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Faz a imagem ficar fixa no fundo */
+    background-position: center; /* Centraliza a imagem no container */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+.img-logo {
+    position: absolute;
+    top: 1.9%; 
+    left: 3%;    
+    cursor: pointer;
+}
+
+.resumo {
+    padding-top: 150px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: 1px auto;
+}
+
+.titulo-resumo {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    color: rgb(231, 133, 5);
+    letter-spacing: 4px;
+}
+
+figure {
+    margin: 30px 0;
+    width: 1020px;
+}
+ 
+.tupac-bio-1, .tupac-bio-2  {
+    padding-top: 30px;
+    width: 100%;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+}
